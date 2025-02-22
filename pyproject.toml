@@ -1,5 +1,5 @@
 [project]
-name = "ollama-deep-researcher"
+name = "ollama_deep_researcher"
 version = "0.0.1"
 description = "Lightweight web research and summarization assistant."
 authors = [
@@ -12,7 +12,7 @@ dependencies = [
     "langgraph>=0.2.55",
     "langchain-community>=0.3.9",
     "tavily-python>=0.5.0",
-    "langchain-ollama>=0.2.1",
+    "langchain-openai",
     "duckduckgo-search>=7.3.0",
     "beautifulsoup4>=4.13.3",
 ]

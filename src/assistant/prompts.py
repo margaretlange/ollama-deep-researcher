@@ -6,7 +6,7 @@ The query will gather information related to a specific topic.
 </TOPIC>
 
 <FORMAT>
-Format your response as a JSON object with ALL three of these exact keys:
+Format your response as a json object with ALL three of these exact keys:
    - "query": The actual search query string
    - "aspect": The specific aspect of the topic being researched
    - "rationale": Brief explanation of why this query is relevant
@@ -21,7 +21,7 @@ Example output:
 }}
 </EXAMPLE>
 
-Provide your response in JSON format:"""
+Provide your response in json format:"""
 
 summarizer_instructions="""
 <GOAL>
@@ -61,7 +61,7 @@ Ensure the follow-up question is self-contained and includes necessary context f
 </REQUIREMENTS>
 
 <FORMAT>
-Format your response as a JSON object with these exact keys:
+Format your response as a json object with these exact keys:
 - knowledge_gap: Describe what information is missing or needs clarification
 - follow_up_query: Write a specific question to address this gap
 </FORMAT>
@@ -74,4 +74,4 @@ Example output:
 }}
 </EXAMPLE>
 
-Provide your analysis in JSON format:"""
+Provide your analysis in json format:"""

@@ -5,6 +5,7 @@ from langsmith import traceable
 from tavily import TavilyClient
 from duckduckgo_search import DDGS
 
+
 def deduplicate_and_format_sources(search_response, max_tokens_per_source, include_raw_content=False):
     """
     Takes either a single search response or list of responses from search APIs and formats them.
